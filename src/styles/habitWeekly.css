@@ -1,0 +1,82 @@
+
+.container{
+    width: 80%;
+    margin: auto;
+    background-color:  rgb(30, 30, 30);
+}
+
+html{
+    background-color: rgb(30, 30, 30) !important;
+}
+
+.container-body{
+    background-color: rgb(30, 30, 30) !important;
+}
+
+.weeklyCard{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px ;
+    padding: 20px ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.habitTitle{
+    font-size: 24px;
+    font-weight: 600;
+    color: #2c3e50;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.weeklyDate{
+   display: flex ;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.singleDay{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgba(81, 207, 207, 0.877);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.singleDay:hover{
+    transform: scale(1.05);
+}
+
+.dayTitle{
+    font-size: 16px;
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.dayStatus{
+    font-size: 14px;
+    font-weight: 500;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.actionButton{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.actionButton:hover{
+    transform: scale(1.2);
+}

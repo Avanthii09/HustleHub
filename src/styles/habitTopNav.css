@@ -1,0 +1,36 @@
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(33, 33, 33);
+    color:   white !important;
+    padding: 1rem;
+   
+  }
+  
+  .navLeftElem {
+    display: inline-block;
+    margin-right: 1.5rem;
+  }
+  
+  .decorationLogo {
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.434) !important;
+  }
+  
+  .decorationLogo i {
+    margin-right: 0.5rem;
+  }
+  
+  .decoration {
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.434) !important;
+    } 
+ 
+ .navRightElem{
+    color:rgba(255, 255, 255, 0.434) !important;
+    font-weight: 600;
+ }

@@ -1,0 +1,65 @@
+/* Register Page */
+
+.body-container{
+    background-image: url("../assets/bg1.jpg");
+    margin: 0;
+    padding: 5rem;
+    background:linear-gradient(0deg, rgba(86, 84, 85, 0.3), rgba(36, 16, 28, 0.893)), url("../assets/bg1.jpg");
+    background-size:cover;
+  }
+  
+  .signup-h2 {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: rgb(166, 154, 161);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+  }
+  
+  #checkbox {
+      width: 1rem;
+    }
+    
+    #reset_pass_lbl {
+      float: left;
+      font-size: 1.2rem;
+      color: #34495e;
+    }
+    
+    form span {
+      font-size: .8rem;
+      color: #7f8c8d;
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    label, input, #sub_btn {
+      width: 100%;
+      max-width: 350px;
+    }
+    
+    label {
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+    
+    .right-label {
+      margin-top: 1rem;
+    }
+    
+    input {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      background-color: #eee;
+    }
+    
+    #sub_btn {
+      font-size: 1.3rem;
+      margin-top: 2rem;
+    }

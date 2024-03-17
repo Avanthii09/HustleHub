@@ -1,0 +1,122 @@
+/* gradient background */
+.grad-background {
+    background: linear-gradient(120deg,#0a0a0a,#5d5a5a,#323131,#8c8c8c,#b3b3b3);
+    background-size: 300% 300%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+
+
+/* navbar */
+.navbar > .container-fluid
+{
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 27px;
+}
+
+.navbar-dark  {
+  background-color: transparent !important;
+}
+
+
+.navLogo{
+    margin-right: 6%;
+    height: 50px;
+    width: 53px;
+}
+
+.navA{
+    margin-left: 6%;
+}
+
+.navHead{
+    font-size: 27px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* intro images and text */
+
+.introHead{
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  margin: 14% auto 14% auto;
+}
+
+.intro{
+    text-align: center;
+    margin: 7%;
+    color: white;
+    font-weight: 200;
+}
+
+.intro p{
+    width: 47%;
+    text-align:center;
+    margin: auto;
+    margin-bottom: 1%;
+    color: #8c8c8c;
+}
+
+.intro img{
+    display: inline-block;
+    height: 300px;
+    width: 470px;
+    margin: 1%;
+}
+
+/* carousel */
+.carouselItem{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+/* account buttons */
+.accButton{
+  margin: 12% auto;
+  text-align: center;
+}
+
+.accButton h3{
+  color: rgb(226, 226, 226);
+  font-size: 30px;
+}
+
+.btn{
+  margin: 2% 0;
+  margin-right: 1%;
+  
+}
+
+
+
+.accButton p{
+  color: rgb(173, 173, 173);
+  width: 40%;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 0;
+  line-height: 1.4;
+}

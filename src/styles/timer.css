@@ -1,0 +1,94 @@
+
+
+
+.container-body-timer{
+    background-image: url("../assets/timerbg.png");
+
+    
+}
+
+
+main{
+    padding-top: 200px;
+    padding-left: 65px;
+    padding-bottom: 80px;
+    max-width: 380px;
+    margin: 100px auto 60px auto;
+}
+
+  button.with-text svg{
+    width: 36px;
+    float:left;
+    margin-right: 5px;
+  }
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    color:whitesmoke ;
+
+  }
+  
+  button{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.8);
+    border: 0;
+    display: inline-block;
+    width: 100px;
+    cursor: pointer;
+
+  }
+
+  button.with-text{
+    width:auto;
+    background-color: rgba(255, 255, 255, 0.1 );
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    line-height: 36px;
+    margin-top:10;
+  }
+  
+  .Settingsbutton {
+    position: relative;
+
+    left: -20px; /* Adjust the left position */
+  }
+  
+  .homebutton {
+    position: relative;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    line-height: 36px;
+    bottom: 38px;
+
+
+  }
+  
+  
+.slider{
+    height: 40px;
+    border: 2px solid #f54e4e;
+    border-radius: 20px;
+    margin: 0 50px 140px 50px;
+}
+
+.thumb{
+    background-color: #f54e4e;
+    cursor:pointer;
+    width:40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.slider.green{
+    border: 2px solid #4aec8c;
+}
+.slider.green .thumb{
+    background-color: #4aec8c;
+}
